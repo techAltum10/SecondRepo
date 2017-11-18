@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Gmail]]>
+    </line>
+    <line>
+      <![CDATA[ESPNcricinfo - Cricket Live Scores, Stats, Schedules, Fixtures & News]]>
+    </line>
+  </reporter-output>
+  <suite name="TestNG Project" duration-ms="76324" started-at="2017-10-15T07:33:26Z" finished-at="2017-10-15T07:34:43Z">
+    <groups>
+    </groups>
+    <test name="Google Test" duration-ms="20182" started-at="2017-10-15T07:33:26Z" finished-at="2017-10-15T07:33:46Z">
+      <class name="oct_15.TC01">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:oct_15.TC01@179e8cb]" name="launchBrowser" is-config="true" duration-ms="14602" started-at="2017-10-15T13:03:26Z" finished-at="2017-10-15T13:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:oct_15.TC01@179e8cb]" name="testCase01" duration-ms="3607" started-at="2017-10-15T13:03:41Z" finished-at="2017-10-15T13:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:oct_15.TC01@179e8cb]" name="quitBrowser" is-config="true" duration-ms="1926" started-at="2017-10-15T13:03:44Z" finished-at="2017-10-15T13:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- oct_15.TC01 -->
+    </test> <!-- Google Test -->
+    <test name="Gmail Test" duration-ms="18114" started-at="2017-10-15T07:33:46Z" finished-at="2017-10-15T07:34:05Z">
+      <class name="oct_15.TC02">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:oct_15.TC02@1a52fbd]" name="launchBrowser" is-config="true" duration-ms="10932" started-at="2017-10-15T13:03:46Z" finished-at="2017-10-15T13:03:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase02()[pri:0, instance:oct_15.TC02@1a52fbd]" name="testCase02" duration-ms="5865" started-at="2017-10-15T13:03:57Z" finished-at="2017-10-15T13:04:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Gmail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:oct_15.TC02@1a52fbd]" name="quitBrowser" is-config="true" duration-ms="1312" started-at="2017-10-15T13:04:03Z" finished-at="2017-10-15T13:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- oct_15.TC02 -->
+    </test> <!-- Gmail Test -->
+    <test name="Cricinfo Test" duration-ms="37879" started-at="2017-10-15T07:34:05Z" finished-at="2017-10-15T07:34:43Z">
+      <class name="oct_15.TC03">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:oct_15.TC03@dbc5d3]" name="launchBrowser" is-config="true" duration-ms="9501" started-at="2017-10-15T13:04:05Z" finished-at="2017-10-15T13:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase03()[pri:0, instance:oct_15.TC03@dbc5d3]" name="testCase03" duration-ms="23061" started-at="2017-10-15T13:04:14Z" finished-at="2017-10-15T13:04:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ESPNcricinfo - Cricket Live Scores, Stats, Schedules, Fixtures & News]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:oct_15.TC03@dbc5d3]" name="quitBrowser" is-config="true" duration-ms="5312" started-at="2017-10-15T13:04:37Z" finished-at="2017-10-15T13:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- oct_15.TC03 -->
+    </test> <!-- Cricinfo Test -->
+  </suite> <!-- TestNG Project -->
+</testng-results>

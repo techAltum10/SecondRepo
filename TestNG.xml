@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Project" verbose="1" >
+<parameter name="browser" value="firefox"></parameter>  
+  
+  <test name="Google Test" >
+    <classes>
+       <class name="oct_15.TC01" />
+    </classes>
+  </test>
+ 
+  
+  <test name="Gmail Test" >
+    <classes>
+       <class name="oct_15.TC02" />
+    </classes>
+  </test>
+  
+  
+  <test name="Cricinfo Test" >
+    <classes>
+       <class name="oct_15.TC03" />
+    </classes>
+  </test>
+ 
+</suite>
